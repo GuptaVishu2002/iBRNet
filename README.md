@@ -4,14 +4,19 @@ This repository contains the code for performing model training using Elemental 
 
 ## Installation Requirements
 
-The basic requirement for using the files are listed in `requirements.txt`.
+The basic requirements for using the files are listed in `requirements.txt`.
 
 ## Source Files
 
-The code for training the iBRNet model  are available in the [`ibrnet` folder](./ibrnet).
+Use iBRNet.py file to train the iBRNet model.
 
 ## Running the code
 
 You can simply run the code (after defining the data path) as follows:
 
-`python BRNet.py`
+`python iBRNet.py -rlrop 45 -es 50 -sm "model_ibrnet" -prop "target"`
+
+`rlrop` is for Reduce Learning Rate on Platue call back function 
+`es` is for the early stopping call back function
+`sm` is the name of the saved model 
+`prop` is the column to train the model on
