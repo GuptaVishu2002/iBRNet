@@ -16,7 +16,7 @@ You can simply run the code (after defining the data path) as follows:
 
 `python iBRNet.py -rlrop 45 -es 50 -sm "model_ibrnet" -prop "target"`
 
-`rlrop` is for Reduce Learning Rate on Platue call back function 
-`es` is for the early stopping call back function
-`sm` is the name of the saved model 
-`prop` is the column to train the model on
+`rlrop` is for Reduce Learning Rate on Platue call back function, 
+`es` is for the early stopping call back function,
+`sm` is the name of the saved model, 
+`prop` is the column to train the model on.
